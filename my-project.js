@@ -1,5 +1,7 @@
 // Import a module
 const http = require('http')
+const url = require('url')
+
 
 const content = '<!DOCTYPE html>' +
 '<html>' +
@@ -13,10 +15,14 @@ const content = '<!DOCTYPE html>' +
 '</html>'
 
 const serverHandle = function (req, res) {
+const path = url.parse(req.url).pathname;
+  console.log(path);
+
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write(content);
   res.end();
 }
+
 
 const server = http.createServer(serverHandle);
 server.listen(8080)
