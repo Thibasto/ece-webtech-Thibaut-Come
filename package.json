@@ -4,7 +4,8 @@
   "description": "",
   "main": "my-project.js",
   "scripts": {
-	"start": "node my-project.js"
+    "start": "node my-project.js",
+    "develop": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Thibasto/ece-webtech-Thibaut-Come/issues"
   },
-  "homepage": "https://github.com/Thibasto/ece-webtech-Thibaut-Come#readme"
+  "homepage": "https://github.com/Thibasto/ece-webtech-Thibaut-Come#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
