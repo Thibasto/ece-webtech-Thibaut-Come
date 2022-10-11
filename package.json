@@ -1,7 +1,6 @@
 {
   "name": "ece-webtech-thibaut-come",
   "version": "1.0.0",
-  "description": "",
   "main": "my-project.js",
   "scripts": {
     "start": "node my-project.js",
@@ -19,6 +18,9 @@
   },
   "homepage": "https://github.com/Thibasto/ece-webtech-Thibaut-Come#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

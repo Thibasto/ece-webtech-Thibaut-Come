@@ -1,9 +1,10 @@
 // Import a module
-const http = require('http')
-const handles = require('./handles')
+// const http = require('http')
+// const handles = require('./handles')
+const express = require('express')
+const app = express()
 
+const birds = require('./birds')
+app.use('/birds', birds)
 
-
-
-const server = http.createServer(handles.serverHandle);
-server.listen(8080)
+app.listen(8080)
