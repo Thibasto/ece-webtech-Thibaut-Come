@@ -15,18 +15,7 @@ export default function Home() {
     </header>
       <main className={styles.main}>
         <h2>ARTICLES</h2>
-      <p>Les technologies web sont un ensemble de protocoles et spécifications qui composent et sont utilisés par le World Wide Web 
-      (généralement abrégé Web ou www) et ses normes. Le web a été créé en 1989 comme application de partage d'informations puis 
-      est devenu une plate-forme à part entière sur laquelle sont développées régulièrement des nouvelles technologies1. 
-      Les bases de ces technologies sont le protocole réseau HTTP, normalisé par l'IETF, et le format de document HTML, normalisé 
-      par le World Wide Web Consortium (W3C). Ce dernier organisme est l’organe centrale de normalisation des technologies web.
-      Destiné par son créateur Tim Berners-Lee, en Suisse, au CERN, à lier un document à un autre via une balise de texte renvoyant vers 
-      une autre page, selon le principe de l'hypertexte, le web est devenu l'un des protocoles d'échange les plus utilisés. 
-      Son évolution a été régulière depuis son lancement. Bénéficiant de son support sur le réseau internet devenu populaire, 
-      le World wide web est, avec le courrier électronique, l'usage le plus courant d'Internet2, et a été étendu bien au-delà de son usage initial. 
-      Ses URLs et URIs, destinées à identifier et localiser un document de manière unique et stable dans le temps, identifient aujourd'hui des applications 
-      avec des documents dynamiquement générés dans des langages de programmation dédiés, des applications informatiques complètes ou des concepts abstraits 
-      avec le web sémantique.</p>
+      
 
       <ul>
           <li><a href="/">retour</a></li>
