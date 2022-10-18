@@ -12,13 +12,18 @@ export default function Home() {
       </Head>
       <header>
         <h1>WEBTECH WEBSITE</h1>
-      </header>
+    </header>
       <main className={styles.main}>
-        <h2>MENU</h2>
+        <h2>CONTACTS</h2>
         <ul>
-          <li><a href="/about">about</a></li>
-          <li><a href="/contacts">contacts</a></li>
-          <li><a href="/articles">articles</a></li>
+            <li>Come Chappuis</li>
+            <li>Emma Varnier</li>
+            <li>Thibaut d'Astorg</li>
+            <li>Antoine Bertrand</li>
+            <li>Charles Fabard</li>
+        </ul>
+        <ul>
+            <li><a href="/">retour</a></li>
         </ul>
       </main>
 
