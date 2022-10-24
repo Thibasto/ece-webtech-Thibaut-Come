@@ -2,7 +2,7 @@
 
 export default function Header(){
   return (
-    <footer className={styles.footer}>
+    <footer>
       <a
         href="https://www.adaltas.com"
         target="_blank"

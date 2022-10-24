@@ -24,7 +24,7 @@ export default function Articles() {
       <h1>
         Web technologies articles
       </h1>
-      <p style={{fontStyle: 'italic'}}>This page fetch data from the client side, not good for SEO.</p>
+      <p class="italic font-bold">This page fetch data from the client side, not good for SEO.</p>
       <ul>
         {articles.map( article => (
           <li key={article.slug}>
