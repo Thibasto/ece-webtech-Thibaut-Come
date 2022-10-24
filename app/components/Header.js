@@ -1,5 +1,4 @@
 
-import styles from '../styles/Layout.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 

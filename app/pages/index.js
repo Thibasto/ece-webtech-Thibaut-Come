@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <h1>WEBTECH WEBSITE</h1>
+        <h1 className="text-3xl font-bold underline">WEBTECH WEBSITE</h1>
       </header>
       <main className={styles.main}>
         <h2>MENU</h2>
