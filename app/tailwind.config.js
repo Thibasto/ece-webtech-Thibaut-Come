@@ -7,5 +7,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    tailwindcss-font-inter,
+    @tailwindcss/typography,
+    @tailwindcss/forms
+  ],
 }
