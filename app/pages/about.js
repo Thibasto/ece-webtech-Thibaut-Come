@@ -10,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-    <header>
-        <h1>WEBTECH WEBSITE</h1>
+    <header classname='wt-header'>
+        <h1 classname = 'wt-title'>WEBTECH WEBSITE</h1>
     </header>
       <main>
         <h2>ABOUT</h2>
@@ -22,7 +22,7 @@ export default function Home() {
       </main>
       
 
-      <footer>
+      <footer classname='wt-footer'>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
