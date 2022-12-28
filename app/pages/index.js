@@ -49,8 +49,7 @@ export default function Home({
   )
 }
 
-export async function getStaticProps(ctx) {
-  console.log("test")
+export async function getServerSideProps(ctx) {
   let articles = []
   let { data, error, status } = await supabase
     .from('articles')

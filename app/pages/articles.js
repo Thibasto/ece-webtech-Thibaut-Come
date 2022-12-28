@@ -21,11 +21,13 @@ export default function Articles({
       </h1>
       <p className="italic my-5 text-lg text-gray-700">This page fetches data at build time, excellent for SEO.</p>
       {session ? (
-  <Link href="/addArticle">
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">    Add article     </button>
-  </Link>
-) :     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">   Log in to add an article     </button>
-}
+        <Link href="/addArticle">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">    Add article     </button>
+        </Link>
+      ) : <Link href="/login">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">   Log in to add an article     </button>
+      </Link>
+      }
 
       <ul className="my-10">
         {articles.map(article => (
@@ -39,8 +41,7 @@ export default function Articles({
   )
 }
 
-export async function getStaticProps(ctx) {
-  console.log("test")
+export async function getServerSideProps(ctx) {
   let articles = []
   let { data, error, status } = await supabase
     .from('articles')
