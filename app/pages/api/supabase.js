@@ -1,4 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
+import { Auth, ThemeSupa } from '@supabase/auth-ui-react'
+
 
 export const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
