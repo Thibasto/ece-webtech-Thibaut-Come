@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* wt stands for Web Tech */
+
+/* npx tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch */
+/* 
+.wt-title {
+  @apply text-3xl font-bold underline mb-10;
+}
+ */
